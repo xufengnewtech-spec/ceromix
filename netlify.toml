@@ -1,11 +1,5 @@
-$content = @"
 [build]
   publish = "."
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
 
 [[headers]]
   for = "/*"
@@ -22,5 +16,3 @@ $content = @"
 [[headers]]
   for = "/*.js"
   values = { Cache-Control = "public, max-age=2592000" }
-"@
-[System.IO.File]::WriteAllText("D:\独立站建站\netlify.toml", $content, [System.Text.UTF8Encoding]::new($false))
