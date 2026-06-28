@@ -1,6 +1,46 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/company"
+  to = "/company.html"
+  status = 200
+
+[[redirects]]
+  from = "/business-units"
+  to = "/business-units.html"
+  status = 200
+
+[[redirects]]
+  from = "/capabilities"
+  to = "/capabilities.html"
+  status = 200
+
+[[redirects]]
+  from = "/career"
+  to = "/career.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries"
+  to = "/industries.html"
+  status = 200
+
+[[redirects]]
+  from = "/imprint"
+  to = "/imprint.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
+
 [[headers]]
   for = "/*"
   values = { X-Frame-Options = "SAMEORIGIN", X-Content-Type-Options = "nosniff", Referrer-Policy = "strict-origin-when-cross-origin" }
