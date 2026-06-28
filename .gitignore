@@ -1,0 +1,29 @@
+﻿# Dependencies
+node_modules/
+.pnpm-store/
+
+# System files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+server.log
+server.ready
+
+# Temp files
+*.tmp
+head-new.html
+
+# Server
+server.js
+start-server.bat
+
+# Backup zips (keep only the latest)
+new-theme.zip
+ceromix-wp-theme-fixed.zip

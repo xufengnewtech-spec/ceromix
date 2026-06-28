@@ -1,0 +1,6 @@
+﻿User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+Sitemap: https://www.ceromix.com/sitemap.xml
