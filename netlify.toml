@@ -8,22 +8,16 @@
 
 [[headers]]
   for = "/*"
-  [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
+  values = { X-Frame-Options = "SAMEORIGIN", X-Content-Type-Options = "nosniff", Referrer-Policy = "strict-origin-when-cross-origin" }
 
 [[headers]]
   for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+  values = { Cache-Control = "public, max-age=31536000, immutable" }
 
 [[headers]]
   for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=2592000"
+  values = { Cache-Control = "public, max-age=2592000" }
 
 [[headers]]
   for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=2592000"
+  values = { Cache-Control = "public, max-age=2592000" }
